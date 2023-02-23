@@ -3,16 +3,17 @@
 
 /**
  * print_number - Prints an intiger.
- * @n: The intiger to prints
+ * @n: The intiger to prints.
  * Return: Nothing!
  */
 
 void print_number(int n)
 
 {
+
 	unsigned int k = n;
 
-	if (n < a)
+	if (n < 0)
 	{
 	n *= -1;
 	k = n;
