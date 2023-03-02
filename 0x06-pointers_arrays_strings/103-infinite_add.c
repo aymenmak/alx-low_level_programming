@@ -13,17 +13,16 @@ void rev_string(char *n)
 	char temp;
 
 	while (*(n + i) != '\0')
-	 {
-		 i++;
-	 }
-	 i--;
-
-	 for (j = 0; j < i; j++, i--)
-	 {
-		 temp = *(n + j);
-		 *(n + j) = *(n + i);
-		 *(n + i) = temp;
-	 }
+	{
+		i++;
+	}
+	i--;
+	for (j = 0; j < i; j++, i--)
+	{
+		temp = *(n + j);
+		*(n + j) = *(n + i);
+		*(n + i) = temp;
+	}
 }
 /**
  * infinite_add - add 2 numbers together
